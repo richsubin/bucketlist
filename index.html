@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style_index.css">
+    <link rel="stylesheet" type="text/css" href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/sparta-bucket2.css">
+    <script>
+        function done(id) {
+            let name = document.getElementById(id).classList
+            document.getElementById(id).className = name + " done"
+        }
+    </script>
+    <title>2023년 버킷리스트</title>
+</head>
+<body class="bg center">
+    <h1 class="title">2023 계획</h1>
+    <p class="msg">올해 꼭 지켜서 성공한다</p>
+    <div class="row flex-row wrap">
+        <div class="bucket img1 center" id="list_1" onclick="done(this.id)">정보처리기사 합격</div>
+        <div class="bucket img2 center" id="list_2" onclick="done(this.id)">네트워크관리사 합격</div>
+        <div class="bucket img2 center" id="list_3" onclick="done(this.id)">SQLD 합격</div>
+        <div class="bucket img1 center" id="list_4" onclick="done(this.id)">토익 800점 이상</div>
+        <div class="bucket img1 center" id="list_5" onclick="done(this.id)">오픽 IH / AL</div>
+        <div class="bucket img2 center" id="list_6" onclick="done(this.id)">다이어트<hr>45kg 만들고 유지</div>
+        <div class="bucket img2 center" id="list_7" onclick="done(this.id)">취업성공</div>
+        <div class="bucket img1 center" id="list_8" onclick="done(this.id)">영상편집 공부</div>
+        <div class="bucket img1 center" id="list_9" onclick="done(this.id)">일본어 회화 공부</div>
+        <div class="bucket img1 center" id="list_10" onclick="done(this.id)">운전면허 따기</div>
+    </div>
+
+</body>
+</html>
